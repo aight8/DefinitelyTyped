@@ -1588,6 +1588,11 @@ declare namespace Electron {
 		 * Default: false.
 		 */
 		sandbox?: boolean;
+		/**
+		 * Whether to enable context isolation of Electron APIs and preload script
+		 * Default: false.
+		 */
+		contextIsolation?: boolean;
 	}
 
 	interface BrowserWindowOptions {
